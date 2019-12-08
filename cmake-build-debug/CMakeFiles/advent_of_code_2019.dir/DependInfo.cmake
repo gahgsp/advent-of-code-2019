@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Web Projects/C++/advent-of-code-2019/day01/main.cpp" "C:/Web Projects/C++/advent-of-code-2019/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/day01/main.cpp.obj"
+  "C:/Web Projects/C++/advent-of-code-2019/day02/main.cpp" "C:/Web Projects/C++/advent-of-code-2019/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/day02/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -122,32 +122,32 @@ advent_of_code_2019/fast:
 	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/build
 .PHONY : advent_of_code_2019/fast
 
-day01/main.obj: day01/main.cpp.obj
+day02/main.obj: day02/main.cpp.obj
 
-.PHONY : day01/main.obj
+.PHONY : day02/main.obj
 
 # target to build an object file
-day01/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/day01/main.cpp.obj
-.PHONY : day01/main.cpp.obj
+day02/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/day02/main.cpp.obj
+.PHONY : day02/main.cpp.obj
 
-day01/main.i: day01/main.cpp.i
+day02/main.i: day02/main.cpp.i
 
-.PHONY : day01/main.i
+.PHONY : day02/main.i
 
 # target to preprocess a source file
-day01/main.cpp.i:
-	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/day01/main.cpp.i
-.PHONY : day01/main.cpp.i
+day02/main.cpp.i:
+	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/day02/main.cpp.i
+.PHONY : day02/main.cpp.i
 
-day01/main.s: day01/main.cpp.s
+day02/main.s: day02/main.cpp.s
 
-.PHONY : day01/main.s
+.PHONY : day02/main.s
 
 # target to generate assembly for a file
-day01/main.cpp.s:
-	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/day01/main.cpp.s
-.PHONY : day01/main.cpp.s
+day02/main.cpp.s:
+	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/day02/main.cpp.s
+.PHONY : day02/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... advent_of_code_2019
 	@echo ... rebuild_cache
-	@echo ... day01/main.obj
-	@echo ... day01/main.i
-	@echo ... day01/main.s
+	@echo ... day02/main.obj
+	@echo ... day02/main.i
+	@echo ... day02/main.s
 .PHONY : help
 
 

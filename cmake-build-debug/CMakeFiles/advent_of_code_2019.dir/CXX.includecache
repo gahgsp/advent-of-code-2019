@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Web Projects/C++/advent-of-code-2019/day01/main.cpp
+C:/Web Projects/C++/advent-of-code-2019/day02/main.cpp
 iostream
 -
 fstream
 -
-cmath
+vector
+-
+sstream
 -
 
