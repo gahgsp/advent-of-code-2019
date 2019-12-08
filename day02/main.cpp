@@ -3,48 +3,26 @@
 //
 
 #include <iostream>
-#include <fstream>
-#include <vector>
-#include <sstream>
 
-using namespace std;
+#include "IntcodeInterpreter.h"
 
 int main() {
+    std::ifstream file("input.txt");
 
-    ifstream file("input.txt");
-    string line;
+    IntcodeInterpreter intcodeInterpreter(file);
 
-    vector<int> intCode;
-    while(getline(file, line)) {
-        istringstream lineStream(line);
-        while (lineStream.good()) {
-            string splitLine;
-            getline(lineStream, splitLine, ',');
-            intCode.push_back(stoi(splitLine));
+    std::cout << "The result of the first part of the puzzle is: " << intcodeInterpreter.readSequence(12, 2) << std::endl;
+
+    int pairResult = 0;
+    for (int noun = 0; noun < 100; noun++) {
+        for (int verb = 0; verb < 100; verb++) {
+            if (intcodeInterpreter.readSequence(noun, verb) == 19690720) {
+                pairResult = 100 * noun + verb;
+            }
         }
     }
 
-    intCode.at(1) = 12;
-    intCode.at(2) = 2;
-
-    bool isHalt = false;
-    for (int i = 0; i < intCode.size(); i+= 4) {
-        if (isHalt) {
-            break;
-        }
-        int opCode = intCode.at(i);
-        switch (opCode) {
-            case 1:
-                intCode.at(intCode.at(i + 3)) = intCode.at(intCode.at(i + 1)) + intCode.at(intCode.at(i + 2));
-                break;
-            case 2:
-                intCode.at(intCode.at(i + 3)) = intCode.at(intCode.at(i + 1)) * intCode.at(intCode.at(i + 2));
-                break;
-            case 99:
-                isHalt = true;
-                break;
-        }
-    }
+    std::cout << "The result of the second part of the puzzle is: " << pairResult << std::endl;
 
     return 0;
 }

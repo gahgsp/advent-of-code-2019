@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/advent_of_code_2019.dir/day02/IntcodeInterpreter.cpp.obj"
   "CMakeFiles/advent_of_code_2019.dir/day02/main.cpp.obj"
   "advent_of_code_2019.exe"
   "advent_of_code_2019.exe.manifest"
