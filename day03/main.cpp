@@ -14,10 +14,16 @@ struct Point {
 
 struct Segment {
     Point start, end;
+    int minX = std::min(start.x, end.x);
+    int maxX = std::max(start.x, end.x);
+    int minY = std::min(start.y, end.y);
+    int maxY = std::max(start.y, end.y);
 };
 
+int calculateManhattanDistance(Point a, Point b) { return std::abs(a.x - b.x) + std::abs(a.y - b.y); }
+
 int main() {
-    const Point STARTING_POINT = {0, 0};
+    const Point CENTRAL_PORT = {0, 0};
 
     std::ifstream file("input.txt");
     std::string commands;
@@ -31,7 +37,7 @@ int main() {
     bool isSecondWire = false;
     while(getline(file, commands, '\n')) {
         std::istringstream strCommand(commands);
-        newPoint = STARTING_POINT;
+        newPoint = CENTRAL_PORT;
         while(strCommand.good()) {
             std::string command;
             getline(strCommand, command, ',');
@@ -63,25 +69,23 @@ int main() {
 
     std::vector<Point> intersections;
 
-    for (Segment s1 : firstWire) {
-        for (Segment s2 : secondWire) {
-            if ((std::min(s1.start.x, s1.end.x) >= std::min(s2.start.x, s2.end.x) && (std::min(s1.start.x, s1.end.x) <= std::max(s2.start.x, s2.end.x))) &&
-                (std::min(s2.start.y, s2.end.y) >= std::min(s1.start.y, s1.end.y) && (std::min(s2.start.y, s2.end.y) <= std::max(s1.start.y, s1.end.y)))) {
-                intersections.push_back({std::min(s1.start.x, s1.end.x), std::min(s2.start.y, s2.end.y)});
-            } else if ((std::min(s2.start.x, s2.end.x) >= std::min(s1.start.x, s1.end.x) && (std::min(s2.start.x, s2.end.x) <= std::max(s1.start.x, s1.end.x))) &&
-                       (std::min(s1.start.y, s1.end.y) >= std::min(s2.start.y, s2.end.y) && (std::min(s1.start.y, s1.end.y) <= std::max(s2.start.y, s2.end.y)))) {
-                intersections.push_back({std::min(s2.start.x, s2.end.x), std::min(s1.start.y, s1.end.y)});
+    for (Segment firstWireSegment : firstWire) {
+        for (Segment secondWireSegment : secondWire) {
+            if ((firstWireSegment.minX >= secondWireSegment.minX && firstWireSegment.minX <= secondWireSegment.maxX) && (secondWireSegment.minY >= firstWireSegment.minY && secondWireSegment.minY <= firstWireSegment.maxY)) {
+                intersections.push_back({firstWireSegment.minX, secondWireSegment.minY});
+            } else if ((secondWireSegment.minX >= firstWireSegment.minX && secondWireSegment.minX <= firstWireSegment.maxX) && (firstWireSegment.minY >= secondWireSegment.minY && firstWireSegment.minY <= secondWireSegment.maxX)) {
+                intersections.push_back({secondWireSegment.minX, firstWireSegment.minY});
             }
         }
     }
 
     int minManhattanDistance = 0;
-    for (Point p : intersections) {
-        if (&p != &STARTING_POINT) {
+    for (Point intersection : intersections) {
+        if (&intersection != &CENTRAL_PORT) {
             if (minManhattanDistance != 0) {
-                minManhattanDistance = std::min(minManhattanDistance, std::abs(p.x - STARTING_POINT.x) + std::abs(p.y - STARTING_POINT.y));
+                minManhattanDistance = std::min(minManhattanDistance, calculateManhattanDistance(intersection, CENTRAL_PORT));
             } else {
-                minManhattanDistance = std::abs(p.x - STARTING_POINT.x) + std::abs(p.y - STARTING_POINT.y);
+                minManhattanDistance = calculateManhattanDistance(intersection, CENTRAL_PORT);
             }
         }
     }
