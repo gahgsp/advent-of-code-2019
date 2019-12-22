@@ -80,13 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Web Projects/C++/advent-of-code-2019/day02/IntcodeInterpreter.cpp">
-			<Option target="advent_of_code_2019"/>
-		</Unit>
-		<Unit filename="C:/Web Projects/C++/advent-of-code-2019/day02/IntcodeInterpreter.h">
-			<Option target="advent_of_code_2019"/>
-		</Unit>
-		<Unit filename="C:/Web Projects/C++/advent-of-code-2019/day02/main.cpp">
+		<Unit filename="C:/Web Projects/C++/advent-of-code-2019/day03/main.cpp">
 			<Option target="advent_of_code_2019"/>
 		</Unit>
 		<Unit filename="C:/Web Projects/C++/advent-of-code-2019/CMakeLists.txt">

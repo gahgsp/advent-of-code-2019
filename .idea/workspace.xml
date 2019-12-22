@@ -12,9 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0525e699-ed33-4d1b-b0a8-48aa3ed9f3de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/day02/IntcodeInterpreter.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/IntcodeInterpreter.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/IntcodeInterpreter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
@@ -22,7 +19,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/day02/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/day02/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/day02/main.cpp.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/objects.a" afterDir="false" />
@@ -32,7 +29,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/advent_of_code_2019.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/advent_of_code_2019.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/advent_of_code_2019.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/advent_of_code_2019.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/day02/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +48,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -83,7 +80,11 @@
       <option name="presentableId" value="Default" />
       <updated>1575733019331</updated>
       <workItem from="1575733021804" duration="8475000" />
-      <workItem from="1575827641652" duration="3930000" />
+      <workItem from="1575827641652" duration="7393000" />
+      <workItem from="1575940711638" duration="719000" />
+      <workItem from="1576783354655" duration="1768000" />
+      <workItem from="1576785295657" duration="4632000" />
+      <workItem from="1577032516864" duration="7604000" />
     </task>
     <servers />
   </component>

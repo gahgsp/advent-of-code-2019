@@ -122,59 +122,32 @@ advent_of_code_2019/fast:
 	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/build
 .PHONY : advent_of_code_2019/fast
 
-day02/IntcodeInterpreter.obj: day02/IntcodeInterpreter.cpp.obj
+day03/main.obj: day03/main.cpp.obj
 
-.PHONY : day02/IntcodeInterpreter.obj
-
-# target to build an object file
-day02/IntcodeInterpreter.cpp.obj:
-	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/day02/IntcodeInterpreter.cpp.obj
-.PHONY : day02/IntcodeInterpreter.cpp.obj
-
-day02/IntcodeInterpreter.i: day02/IntcodeInterpreter.cpp.i
-
-.PHONY : day02/IntcodeInterpreter.i
-
-# target to preprocess a source file
-day02/IntcodeInterpreter.cpp.i:
-	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/day02/IntcodeInterpreter.cpp.i
-.PHONY : day02/IntcodeInterpreter.cpp.i
-
-day02/IntcodeInterpreter.s: day02/IntcodeInterpreter.cpp.s
-
-.PHONY : day02/IntcodeInterpreter.s
-
-# target to generate assembly for a file
-day02/IntcodeInterpreter.cpp.s:
-	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/day02/IntcodeInterpreter.cpp.s
-.PHONY : day02/IntcodeInterpreter.cpp.s
-
-day02/main.obj: day02/main.cpp.obj
-
-.PHONY : day02/main.obj
+.PHONY : day03/main.obj
 
 # target to build an object file
-day02/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/day02/main.cpp.obj
-.PHONY : day02/main.cpp.obj
+day03/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/day03/main.cpp.obj
+.PHONY : day03/main.cpp.obj
 
-day02/main.i: day02/main.cpp.i
+day03/main.i: day03/main.cpp.i
 
-.PHONY : day02/main.i
+.PHONY : day03/main.i
 
 # target to preprocess a source file
-day02/main.cpp.i:
-	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/day02/main.cpp.i
-.PHONY : day02/main.cpp.i
+day03/main.cpp.i:
+	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/day03/main.cpp.i
+.PHONY : day03/main.cpp.i
 
-day02/main.s: day02/main.cpp.s
+day03/main.s: day03/main.cpp.s
 
-.PHONY : day02/main.s
+.PHONY : day03/main.s
 
 # target to generate assembly for a file
-day02/main.cpp.s:
-	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/day02/main.cpp.s
-.PHONY : day02/main.cpp.s
+day03/main.cpp.s:
+	$(MAKE) -f CMakeFiles\advent_of_code_2019.dir\build.make CMakeFiles/advent_of_code_2019.dir/day03/main.cpp.s
+.PHONY : day03/main.cpp.s
 
 # Help Target
 help:
@@ -185,12 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... advent_of_code_2019
 	@echo ... rebuild_cache
-	@echo ... day02/IntcodeInterpreter.obj
-	@echo ... day02/IntcodeInterpreter.i
-	@echo ... day02/IntcodeInterpreter.s
-	@echo ... day02/main.obj
-	@echo ... day02/main.i
-	@echo ... day02/main.s
+	@echo ... day03/main.obj
+	@echo ... day03/main.i
+	@echo ... day03/main.s
 .PHONY : help
 
 
