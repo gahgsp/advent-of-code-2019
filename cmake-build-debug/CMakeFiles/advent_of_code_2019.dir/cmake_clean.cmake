@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/advent_of_code_2019.dir/day03/main.cpp.obj"
+  "CMakeFiles/advent_of_code_2019.dir/day04/main.cpp.obj"
   "advent_of_code_2019.exe"
   "advent_of_code_2019.exe.manifest"
   "advent_of_code_2019.pdb"
