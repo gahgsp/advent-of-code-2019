@@ -71,9 +71,9 @@ int main() {
 
     for (Segment s1 : firstWire) {
         for (Segment s2 : secondWire) {
-            if ((s1.minX >= s2.minX && (s1.minX <= s2.maxX)) && (s2.minX >= s1.minX && (s2.minY <= s1.maxY))) {
+            if ((s1.minX >= s2.minX && s1.minX <= s2.maxX) && (s2.minY >= s1.minY && s2.minY <= s1.maxY)) {
                 intersections.push_back({s1.minX, s2.minY});
-            } else if ((s2.minX >= s1.minX && (s2.minX <= s1.maxX)) && (s1.minY >= s2.minY && (s1.minY <= s2.maxY))) {
+            } else if ((s2.minX >= s1.minX && s2.minX <= s1.maxX) && (s1.minY >= s2.minY && s1.minY <= s2.maxX)) {
                 intersections.push_back({s2.minX, s1.minY});
             }
         }
