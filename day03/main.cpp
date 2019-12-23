@@ -69,12 +69,12 @@ int main() {
 
     std::vector<Point> intersections;
 
-    for (Segment firstWireSegment : firstWire) {
-        for (Segment secondWireSegment : secondWire) {
-            if ((firstWireSegment.minX >= secondWireSegment.minX && firstWireSegment.minX <= secondWireSegment.maxX) && (secondWireSegment.minY >= firstWireSegment.minY && secondWireSegment.minY <= firstWireSegment.maxY)) {
-                intersections.push_back({firstWireSegment.minX, secondWireSegment.minY});
-            } else if ((secondWireSegment.minX >= firstWireSegment.minX && secondWireSegment.minX <= firstWireSegment.maxX) && (firstWireSegment.minY >= secondWireSegment.minY && firstWireSegment.minY <= secondWireSegment.maxX)) {
-                intersections.push_back({secondWireSegment.minX, firstWireSegment.minY});
+    for (Segment s1 : firstWire) {
+        for (Segment s2 : secondWire) {
+            if ((s1.minX >= s2.minX && (s1.minX <= s2.maxX)) && (s2.minX >= s1.minX && (s2.minY <= s1.maxY))) {
+                intersections.push_back({s1.minX, s2.minY});
+            } else if ((s2.minX >= s1.minX && (s2.minX <= s1.maxX)) && (s1.minY >= s2.minY && (s1.minY <= s2.maxY))) {
+                intersections.push_back({s2.minX, s1.minY});
             }
         }
     }
@@ -90,7 +90,7 @@ int main() {
         }
     }
 
-    std::cout << "The result of the second part of the puzzle is: " << minManhattanDistance << std::endl;
+    std::cout << "The result of the first part of the puzzle is: " << minManhattanDistance << std::endl;
 
     return 0;
 }
