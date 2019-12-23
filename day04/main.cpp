@@ -26,10 +26,28 @@ inline bool adjacent(const password pass) {
     return pass.digits[0] == pass.digits[1] || pass.digits[1] == pass.digits[2] || pass.digits[2] == pass.digits[3] || pass.digits[3] == pass.digits[4] || pass.digits[4] == pass.digits[5];
 }
 
+inline bool atLeastOnePairWithTwoDigits(const password pass) {
+    // This array represents numbers from 0 to 9 (the possible values in the password)
+    std::array<int, 10> occurrences {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+    for (int i = 0; i < pass.digits.size(); i++) {
+        // We add each number occurrence to its position in the array
+        occurrences[pass.digits[i]] = ++occurrences[pass.digits[i]];
+    }
+    int twoPairsCount = 0;
+    for (int j = 0; j < occurrences.size(); j++) {
+        // Checks for numbers that made only one valid pair
+        if (occurrences[j] == 2) {
+            twoPairsCount++;
+        }
+    }
+    return twoPairsCount > 0;
+}
+
 int main() {
     const int minValue = 382345;
     const int maxValue = 843167;
     int possiblePasswordsCount = 0;
+    int passwordsWithTwoDigitsPair = 0;
     std::vector<int> possiblePasswords;
 
     for (int i = minValue; i < maxValue; i++) {
@@ -39,10 +57,17 @@ int main() {
     for (int pass : possiblePasswords) {
         password p(pass);
         if (increasing(p) && adjacent(p)) {
+            // Part One
             possiblePasswordsCount++;
+            if (atLeastOnePairWithTwoDigits(p)) {
+                // Part Two
+                passwordsWithTwoDigitsPair++;
+            }
         }
     }
 
     std::cout << "The result of the first part of the puzzle is: " << possiblePasswordsCount << std::endl;
+
+    std::cout << "The result of the second part of the puzzle is: " << passwordsWithTwoDigitsPair << std::endl;
     return 0;
 }
