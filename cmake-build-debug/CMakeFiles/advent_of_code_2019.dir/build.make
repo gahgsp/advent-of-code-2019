@@ -56,27 +56,27 @@ include CMakeFiles/advent_of_code_2019.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/advent_of_code_2019.dir/flags.make
 
-CMakeFiles/advent_of_code_2019.dir/day06/main.cpp.obj: CMakeFiles/advent_of_code_2019.dir/flags.make
-CMakeFiles/advent_of_code_2019.dir/day06/main.cpp.obj: ../day06/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Web Projects\C++\advent-of-code-2019\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/advent_of_code_2019.dir/day06/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\advent_of_code_2019.dir\day06\main.cpp.obj -c "C:\Web Projects\C++\advent-of-code-2019\day06\main.cpp"
+CMakeFiles/advent_of_code_2019.dir/day08/main.cpp.obj: CMakeFiles/advent_of_code_2019.dir/flags.make
+CMakeFiles/advent_of_code_2019.dir/day08/main.cpp.obj: ../day08/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Web Projects\C++\advent-of-code-2019\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/advent_of_code_2019.dir/day08/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\advent_of_code_2019.dir\day08\main.cpp.obj -c "C:\Web Projects\C++\advent-of-code-2019\day08\main.cpp"
 
-CMakeFiles/advent_of_code_2019.dir/day06/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/advent_of_code_2019.dir/day06/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Web Projects\C++\advent-of-code-2019\day06\main.cpp" > CMakeFiles\advent_of_code_2019.dir\day06\main.cpp.i
+CMakeFiles/advent_of_code_2019.dir/day08/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/advent_of_code_2019.dir/day08/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Web Projects\C++\advent-of-code-2019\day08\main.cpp" > CMakeFiles\advent_of_code_2019.dir\day08\main.cpp.i
 
-CMakeFiles/advent_of_code_2019.dir/day06/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/advent_of_code_2019.dir/day06/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Web Projects\C++\advent-of-code-2019\day06\main.cpp" -o CMakeFiles\advent_of_code_2019.dir\day06\main.cpp.s
+CMakeFiles/advent_of_code_2019.dir/day08/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/advent_of_code_2019.dir/day08/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Web Projects\C++\advent-of-code-2019\day08\main.cpp" -o CMakeFiles\advent_of_code_2019.dir\day08\main.cpp.s
 
 # Object files for target advent_of_code_2019
 advent_of_code_2019_OBJECTS = \
-"CMakeFiles/advent_of_code_2019.dir/day06/main.cpp.obj"
+"CMakeFiles/advent_of_code_2019.dir/day08/main.cpp.obj"
 
 # External object files for target advent_of_code_2019
 advent_of_code_2019_EXTERNAL_OBJECTS =
 
-advent_of_code_2019.exe: CMakeFiles/advent_of_code_2019.dir/day06/main.cpp.obj
+advent_of_code_2019.exe: CMakeFiles/advent_of_code_2019.dir/day08/main.cpp.obj
 advent_of_code_2019.exe: CMakeFiles/advent_of_code_2019.dir/build.make
 advent_of_code_2019.exe: CMakeFiles/advent_of_code_2019.dir/linklibs.rsp
 advent_of_code_2019.exe: CMakeFiles/advent_of_code_2019.dir/objects1.rsp

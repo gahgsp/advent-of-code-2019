@@ -13,11 +13,19 @@
   <component name="ChangeListManager">
     <list default="true" id="0525e699-ed33-4d1b-b0a8-48aa3ed9f3de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/day06/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/day06/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/day06/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/advent_of_code_2019.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/advent_of_code_2019.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/advent_of_code_2019.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/advent_of_code_2019.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/advent_of_code_2019.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06/input_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day06/input_test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/day06/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +86,9 @@
       <workItem from="1577105574473" duration="9476000" />
       <workItem from="1577193665393" duration="891000" />
       <workItem from="1577216430937" duration="6898000" />
-      <workItem from="1577278990627" duration="6633000" />
+      <workItem from="1577278990627" duration="6703000" />
+      <workItem from="1577300948558" duration="4037000" />
+      <workItem from="1577475199571" duration="7429000" />
     </task>
     <servers />
   </component>
